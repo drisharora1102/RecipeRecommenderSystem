@@ -1,6 +1,6 @@
 """
-Team Rocket — Food.com Recipe Recommender
-Streamlit UI  |  CSC 577
+Food.com Recipe Recommender
+Streamlit UI
 """
 
 import streamlit as st
@@ -16,7 +16,7 @@ from zipfile import ZipFile
 # Page config
 # ─────────────────────────────────────────────
 st.set_page_config(
-    page_title="Recipe Recommender Â· Team Rocket",
+    page_title="Recipe Recommender",
     page_icon="🍳",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -555,7 +555,7 @@ def render_recipe_card(rank, recipe_id, score, n_missing, missing_ings, recipe_i
 def main():
     # ── Header ──────────────────────────────
     st.markdown("<h1>🍳 Recipe Recommender</h1>", unsafe_allow_html=True)
-    st.markdown("<h3>CSC 577 Â· Team Rocket</h3>", unsafe_allow_html=True)
+    st.markdown("<h3>Food.com Recipe Recommender</h3>", unsafe_allow_html=True)
     st.markdown('<hr class="divider">', unsafe_allow_html=True)
 
     # ── Load data ───────────────────────────
@@ -898,4 +898,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

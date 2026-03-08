@@ -1,10 +1,8 @@
 # 🍳 Recipe Recommender System
-**CSC 577 — Recommender Systems | Winter 2026**  
-**Team Rocket** — Mohammed Ahmed Hussain, Sameer Ahmed Noor, Drishti Arora  
+**Contributors:** Mohammed Ahmed Hussain, Sameer Ahmed Noor, Drishti Arora  
 **Instructor:** Bamshad Mobasher, DePaul University
 
 ---
-
 ## Overview
 
 A hybrid recipe recommender system built on the [Food.com Recipes & Interactions dataset](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions/data). The system recommends personalized recipes based on a user's historical ratings and filters results by ingredient availability and dietary preferences.
@@ -277,5 +275,7 @@ This repo includes deployment files for Render:
 
 ## Academic Integrity
 
-This project was developed for CSC 577 at DePaul University. All recommendation algorithms are implemented from scratch using only numpy and scipy — no recommendation libraries (e.g. Surprise) were used. All third-party data sources are credited above.
+This project was developed at DePaul University. All recommendation algorithms are implemented from scratch using only numpy and scipy — no recommendation libraries (e.g. Surprise) were used. All third-party data sources are credited above.
+
+
 
